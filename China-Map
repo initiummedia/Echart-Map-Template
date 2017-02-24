@@ -1,0 +1,96 @@
+{
+    "title": {
+        "text": "China Map",
+        "subtext": "XXXXXXXXXXXXXXXXX",
+        "sublink": "http: //esa.un.org/wpp/Excel-Data/population.htm"
+    },
+    "tooltip": {
+        "trigger": "item",
+        "formatter": "{b}"
+    },
+    "visualMap": {
+        "min": 50,
+        "max": 1000,
+        "text": [
+            "High",
+            "Low"
+        ],
+        "realtime": false,
+        "calculable": true
+    },
+    "series": [
+        {
+            "name": "中國",
+            "type": "map",
+            "mapType": "GeoJSON",
+            "roam": true,
+            "selectedMode": "multiple",
+            "label": {
+                "normal": {
+                    "show": true
+                },
+                "emphasis": {
+                    "show": true
+                }
+            },
+            "data": [
+                {
+                    "name": "廣東",
+                    "selected": true
+                },
+                {
+                    "name": "福建",
+                    "value": 120
+                },
+                {
+                    "name": "湖北",
+                    "value": 300
+                },
+                {
+                    "name": "上海",
+                    "value": 700
+                },
+                {
+                    "name": "江蘇",
+                    "value": 400
+                }
+            ],
+            "nameMap": {
+                "taiwan": "台灣",
+                "hebei": "河北",
+                "shanxi1": "山西",
+                "neimenggu": "內蒙古",
+                "liaoning": "遼寧",
+                "jilin": "吉林",
+                "heilongjiang": "黑龍江",
+                "jiangsu": "江蘇",
+                "zhejiang": "浙江",
+                "anhui": "安徽",
+                "fujian": "福建",
+                "jiangxi": "江西",
+                "shandong": "山東",
+                "henan": "河南",
+                "hubei": "湖北",
+                "hunan": "湖南",
+                "guangdong": "廣東",
+                "guangxi": "廣西",
+                "hainan": "海南",
+                "sichuan": "四川",
+                "guizhou": "貴州",
+                "yunnan": "雲南",
+                "xizang": "西藏",
+                "shanxi2": "陝西",
+                "gansu": "甘肅",
+                "qinghai": "青海",
+                "ningxia": "寧夏",
+                "xinjiang": "新疆",
+                "beijing": "北京",
+                "tianjin": "天津",
+                "shanghai": "上海",
+                "chongqing": "重慶",
+                "hongkong": "香港",
+                "macao": "澳門"
+            }
+        }
+    ]
+}
